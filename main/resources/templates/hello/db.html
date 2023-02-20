@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf/org">
+	
+	<head>
+		<meta charset="UTF-8"></meta>
+		<titile>ResponseSample</titile>
+	</head>
+	
+	<body>
+		<h1>HelloResponseDB</h1>
+		<table>
+			<tr>
+				<td>ID:</td>
+				<td th:text="${employee.employeeId}"></td>
+			</tr>
+			<tr>
+				<td>名前:</td>
+				<td th:text="${employee.employeeName}"></td>
+			</tr>
+			<tr>
+				<td>年齢:</td>
+				<td th:text="${employee.employeeAge}"></td>
+			</tr>
+		</table>
+	</body>
+	
+</html>
